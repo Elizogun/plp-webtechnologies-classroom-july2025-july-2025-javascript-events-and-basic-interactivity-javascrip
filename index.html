@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Tech Newbie Diary | Home</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Loading overlay -->
+<div id="loading-overlay"><div class="spinner" role="status" aria-label="Loading"></div></div>
+
+<header class="header">
+  <h1>Tech Newbie Diary</h1>
+  <p>Exploring Artificial Intelligence, Cloud Computing & Cybersecurity</p>
+  <button class="theme-toggle" aria-label="Toggle theme">Toggle</button>
+</header>
+
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="ai.html">Artificial Intelligence</a></li>
+    <li><a href="cloud.html">Cloud Computing</a></li>
+    <li><a href="cybersecurity.html">Cybersecurity</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<main class="main-grid">
+  <aside class="sidebar">
+    <h3>About Me</h3>
+    <p>I'm a tech newbie turned influencer—sharing my journey learning AI, Cloud, and Cybersecurity.</p>
+
+    <h4>Quick Topics</h4>
+    <ul>
+      <li><a href="ai.html">Machine Learning 101</a></li>
+      <li><a href="cloud.html">Deploying to the Cloud</a></li>
+      <li><a href="cybersecurity.html">Secure Defaults</a></li>
+    </ul>
+
+    <h4>Interactive</h4>
+    <div style="margin-top:0.5rem">
+      <button id="counter-btn" class="btn">Press me</button>
+      <div id="counter-display" style="margin-top:0.5rem;font-weight:700">0</div>
+    </div>
+  </aside>
+
+  <section class="content">
+    <h2>Featured Topics</h2>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <div class="tab-list" role="tablist" aria-label="Featured topics tabs">
+        <button data-tab-target="ai" class="active">AI</button>
+        <button data-tab-target="cloud">Cloud</button>
+        <button data-tab-target="cyber">Cybersecurity</button>
+      </div>
+
+      <div class="tab-panel" data-tab="ai">
+        <h3>Artificial Intelligence</h3>
+        <p>Introductory notes, tutorials, and resources for beginners diving into AI.</p>
+      </div>
+      <div class="tab-panel" data-tab="cloud">
+        <h3>Cloud Computing</h3>
+        <p>How to deploy apps, understand storage, and scale services on cloud providers.</p>
+      </div>
+      <div class="tab-panel" data-tab="cyber">
+        <h3>Cybersecurity</h3>
+        <p>Best practices for staying secure online and building resilient systems.</p>
+      </div>
+    </div>
+
+# create other pages similarly (omitted here for brevity in this cell)
